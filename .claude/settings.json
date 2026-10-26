@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(date)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(databricks auth profiles *)",
+      "Bash(databricks current-user me *)"
+    ],
+    "deny": ["Read(./.env)"]
+  }
+}

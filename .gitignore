@@ -1,0 +1,7 @@
+.env
+*.pem
+*.key
+.DS_Store
+__pycache__/
+.databrickscfg
+.claude/settings.local.json
